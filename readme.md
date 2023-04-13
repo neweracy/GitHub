@@ -45,7 +45,7 @@ title: Working with GitHub in short
 ---
 
 
-graph TD
+graph LR
 
 A[Working Area]-->|git add| B[Staging Area]
 B-->|git commit| c[Local Repo]
