@@ -47,10 +47,10 @@ title: Working with GitHub in short
 
 graph LR
 
-A[Working Area]-->|git add| B{{Staging Area}}
-B-->|git commit| c{{Local Repo}}
-c-->|git push| d{{Remote Repo}}
-d-->|git pull| A
+A[Working Area]==>|git add| B{{Staging Area}}
+B==>|git commit| c{{Local Repo}}
+c==>|git push| d[(Remote Repo)]
+d==>|git pull| A
 
 
 ```
